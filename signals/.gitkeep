@@ -1,0 +1,5 @@
+# signals/ 目录
+# 此目录由程序自动管理，存放以下文件：
+#   history.json  —— 信号历史记录
+#   weights.json  —— 因子权重（进化后覆盖）
+#   trades.json   —— 交易执行记录
