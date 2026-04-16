@@ -20,18 +20,20 @@ from laplace.config import config
 # 默认权重（10 维度，总和 = 100）
 # ================================================================
 DEFAULT_WEIGHTS: dict[str, float] = {
-    "trend":       25.0,
-    "rsi":         14.0,
-    "macd":        14.0,
-    "bollinger":   10.0,
-    "news":        10.0,
-    "onchain":      8.0,
-    "taker_flow":   8.0,
-    "volume":       6.0,
-    "funding":      5.0,
-    "fear_greed":   5.0,
-    "liquidation":  3.0,
-    "oi_velocity":  2.0,
+    "trend":        25.0,
+    "rsi":          14.0,
+    "macd":         14.0,
+    "bollinger":    10.0,
+    "news":         10.0,
+    "onchain":       8.0,
+    "taker_flow":    8.0,
+    "volume":        6.0,
+    "funding":       5.0,
+    "funding_ema":   5.0,
+    "fear_greed":    5.0,
+    "liquidation":   3.0,
+    "oi_velocity":   2.0,
+    "pcr":           4.0,
 }
 
 # 权重文件路径

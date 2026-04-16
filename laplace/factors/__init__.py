@@ -25,10 +25,12 @@ from .technical import (
 # 衍生品因子
 from .derivatives import (
     FundingRateFactor,
+    FundingRateEMAFactor,
     OIVelocityFactor,
     TakerFlowFactor,
     LiquidationFactor,
     LongShortRatioFactor,
+    PCRFactor,
 )
 
 # 情绪因子
@@ -51,10 +53,12 @@ __all__ = [
     "VolumeFactor",
     # 衍生品
     "FundingRateFactor",
+    "FundingRateEMAFactor",
     "OIVelocityFactor",
     "TakerFlowFactor",
     "LiquidationFactor",
     "LongShortRatioFactor",
+    "PCRFactor",
     # 情绪
     "FearGreedFactor",
     "NewsSentimentFactor",
